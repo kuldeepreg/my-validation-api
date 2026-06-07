@@ -67,6 +67,14 @@ app.get('/validate', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server running`));
+        return res.status(400).json({
+            "status": "error",
+            "message": "License expired or suspended"
+        });
+    }
+});
+
+app.listen(PORT, () => console.log(`Server running`));
             "message": "License expired or suspended"
         });
     }
