@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 const ALL_VALID_KEYS = [
     "KULDEEP123", 
     "VIPACCESS", 
-    "PREMIUM999", 
+    "PREMIUM999", "HELLO",
     "TESTKEY55"
 ];
 
